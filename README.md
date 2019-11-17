@@ -25,4 +25,15 @@ Things you may want to cover:
 
 * Deployment instructions
 
+## rails new
 `$ rails new . -T`
+
+## devise
+- `$ rails g devise:install`
+config
+- `$ rails g devise:views`
+
+- `$ rails g devise User`
+  - models
+  - routes
+- `$ rails db:migrate`
